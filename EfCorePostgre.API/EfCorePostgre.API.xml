@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EfCorePostgre.API</name>
+    </assembly>
+    <members>
+        <member name="T:EfCorePostgre.API.Controllers.CommonController">
+            <summary>The common controller.</summary>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.CommonController.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:EfCorePostgre.API.Controllers.CommonController"/> class.</summary>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.CommonController.Heartbeat">
+            <summary>The heartbeat.</summary>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/>.</returns>
+        </member>
+        <member name="T:EfCorePostgre.API.Controllers.PermissionController">
+            <summary>The permission controller.</summary>
+        </member>
+        <member name="F:EfCorePostgre.API.Controllers.PermissionController.permissionService">
+            <summary>The permission service.</summary>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.PermissionController.#ctor(EfCorePostgre.Services.Permission.IPermissionService)">
+            <summary>Initializes a new instance of the <see cref="T:EfCorePostgre.API.Controllers.PermissionController"/> class.</summary>
+            <param name="permissionService">The permission service.</param>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.PermissionController.GetPermissionById(System.Int64)">
+            <summary>The get permission by ıd.</summary>
+            <param name="id">The id.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.PermissionController.InsertPermission(EfCorePostgre.Dto.PermissionDto)">
+            <summary>The ınsert permission.</summary>
+            <param name="permission">The permission.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.PermissionController.UpdatePermission(EfCorePostgre.Dto.PermissionDto)">
+            <summary>The update permission.</summary>
+            <param name="permission">The permission.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.PermissionController.GetPermissionList">
+            <summary>The get permission list.</summary>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.PermissionController.DeletePermission(System.Int64)">
+            <summary>The delete permission.</summary>
+            <param name="id">The id.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="T:EfCorePostgre.API.Controllers.RoleController">
+            <summary>The role controller.</summary>
+        </member>
+        <member name="F:EfCorePostgre.API.Controllers.RoleController.roleService">
+            <summary>The role service.</summary>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.RoleController.#ctor(EfCorePostgre.Services.Role.IRoleService)">
+            <summary>Initializes a new instance of the <see cref="T:EfCorePostgre.API.Controllers.RoleController"/> class.</summary>
+            <param name="roleService">The role service.</param>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.RoleController.GetRoleById(System.Int64)">
+            <summary>The get role by ıd.</summary>
+            <param name="id">The id.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+            <example>GET: api/Role/1</example>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.RoleController.InsertRole(EfCorePostgre.Dto.RoleDto)">
+            <summary>The ınsert role.</summary>
+            <param name="role">The role.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.RoleController.UpdateRole(EfCorePostgre.Dto.RoleDto)">
+            <summary>The update role.</summary>
+            <param name="role">The role.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.RoleController.GetRoleList">
+            <summary>The get role list.</summary>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.RoleController.DeleteRole(System.Int64)">
+            <summary>The delete role.</summary>
+            <param name="id">The id.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="T:EfCorePostgre.API.Controllers.UserController">
+            <summary>The user controller.</summary>
+        </member>
+        <member name="F:EfCorePostgre.API.Controllers.UserController.userService">
+            <summary>The user service.</summary>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.UserController.#ctor(EfCorePostgre.Services.User.IUserService)">
+            <summary>Initializes a new instance of the <see cref="T:EfCorePostgre.API.Controllers.UserController"/> class.</summary>
+            <param name="userService">The user service.</param>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.UserController.GetUserById(System.Int64)">
+            <summary>The get user by ıd.</summary>
+            <param name="id">The id.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.UserController.InsertUser(EfCorePostgre.Dto.UserDto)">
+            <summary>The ınsert user.</summary>
+            <param name="user">The user.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.UserController.UpdateUser(EfCorePostgre.Dto.UserDto)">
+            <summary>The update user.</summary>
+            <param name="user">The user.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.UserController.GetUserList">
+            <summary>The get user list.</summary>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:EfCorePostgre.API.Controllers.UserController.DeleteUser(System.Int64)">
+            <summary>The delete user.</summary>
+            <param name="id">The id.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+    </members>
+</doc>

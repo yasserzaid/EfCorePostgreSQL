@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCorePostgre.Data", "EfCorePostgre.Data\EfCorePostgre.Data.csproj", "{97C6985A-E193-414F-A0FD-63B31852DD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCorePostgre.Core", "EfCorePostgre.Core\EfCorePostgre.Core.csproj", "{C2BA670D-0A2B-49B7-9C5C-5EEFF6D19FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCorePostgre.Dto", "EfCorePostgre.Dto\EfCorePostgre.Dto.csproj", "{B299F9F7-3ABA-4342-923E-1666D7B1AE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCorePostgre.Services", "EfCorePostgre.Services\EfCorePostgre.Services.csproj", "{3C0E4B1F-EA8B-4A0A-B75E-8CF3505136FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCorePostgre.API", "EfCorePostgre.API\EfCorePostgre.API.csproj", "{88CC74BB-EA3E-47BA-B988-4B907968702D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97C6985A-E193-414F-A0FD-63B31852DD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C6985A-E193-414F-A0FD-63B31852DD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C6985A-E193-414F-A0FD-63B31852DD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C6985A-E193-414F-A0FD-63B31852DD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BA670D-0A2B-49B7-9C5C-5EEFF6D19FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BA670D-0A2B-49B7-9C5C-5EEFF6D19FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BA670D-0A2B-49B7-9C5C-5EEFF6D19FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BA670D-0A2B-49B7-9C5C-5EEFF6D19FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B299F9F7-3ABA-4342-923E-1666D7B1AE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B299F9F7-3ABA-4342-923E-1666D7B1AE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B299F9F7-3ABA-4342-923E-1666D7B1AE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B299F9F7-3ABA-4342-923E-1666D7B1AE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0E4B1F-EA8B-4A0A-B75E-8CF3505136FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0E4B1F-EA8B-4A0A-B75E-8CF3505136FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0E4B1F-EA8B-4A0A-B75E-8CF3505136FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0E4B1F-EA8B-4A0A-B75E-8CF3505136FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CC74BB-EA3E-47BA-B988-4B907968702D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CC74BB-EA3E-47BA-B988-4B907968702D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CC74BB-EA3E-47BA-B988-4B907968702D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CC74BB-EA3E-47BA-B988-4B907968702D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75B32D5B-B549-4223-AF59-230839648F97}
+	EndGlobalSection
+EndGlobal

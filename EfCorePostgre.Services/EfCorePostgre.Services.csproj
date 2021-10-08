@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EfCorePostgre.Core\EfCorePostgre.Core.csproj" />
+    <ProjectReference Include="..\EfCorePostgre.Data\EfCorePostgre.Data.csproj" />
+    <ProjectReference Include="..\EfCorePostgre.Dto\EfCorePostgre.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
